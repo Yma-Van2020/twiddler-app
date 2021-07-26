@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="jquery.js"></script>
+    <script src="data_generator.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="banner">Twiddler 2.0</div>
+    <div id="app">
+        <div id="user-profile">
+            <img src="img/Visitor.jpg" class="big-avi">
+            <div class="user-info">
+                <h2 class="user-handle handle">@IamVisitor</h1>
+                    <p class="user-bio">Hello, coding is exciting!</p>
+            </div>
+
+            <div class="friend-list">
+                <ul>
+                    <h3>Friend List</h3>
+                    <hr />
+                    <li>mracus</li>
+                    <li>sharksforcheap</li>
+                    <li>douglascalhoun</li>
+                    <li>shawndrost</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main-column">
+            <div class="nav">
+                <button class="homeButton"><ion-icon name="home"></ion-icon></button>
+                <button class="load">Load new tweets</button>
+            </div>
+            <div class="new-tweet-area">
+                <textarea class="textbox" rows="4"></textarea>
+                <button class="post-tweet">Post tweet</button>
+            </div>
+            <div id="feed"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+<!--
+  we need a home button to go back from user stream
+ -->
