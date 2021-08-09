@@ -1,6 +1,6 @@
 body {
-    background-color: #74c1df;
-    color: #3B252C;
+    background-color: #ecf1f4;
+    color: #523c44;
     font-family: sans-serif;
     text-align: center;
 }
@@ -8,7 +8,7 @@ body {
 .banner {
     display: block;
     font-size: 7em;
-    color: #72589e;
+    color: #68c6ee;
     font-family: 'Festive', cursive;
 }
 
@@ -25,7 +25,7 @@ body {
 #user-profile {
     width: 25%;
     max-width: 200px;
-    border: 1px solid #AEA4BF;
+    border: 1px solid #68c6ee;
     margin-right: 2%;
     position: fixed;
     /*top: -45px;*/
@@ -35,7 +35,7 @@ body {
 }
 
 .big-avi {
-    background-color: #D5D0DD;
+    background-color: #68c6ee;
     border-radius: 50%;
     width: 100%;
     height: auto;
@@ -85,13 +85,14 @@ body {
 }
 
 button {
-    background-color: #F4F3F5;
-    border: 1px solid #AEA4BF;
+    background-color:#68c6ee;
+    border: 1px solid #626567;
     padding: 15px 45px;
     text-transform: uppercase;
     font-weight: bold;
     opacity: 0.8;
-    color: #665388;
+    color: #684740;
+    border-radius: 5px;
 }
 
 .post-tweet {
@@ -127,17 +128,18 @@ ion-icon {
 }
 
 .tweet-card {
-    border: 1px solid #AEA4BF;
+    border: 1px solid #68c6ee;
     display: flex;
     justify-content: flex-start;
     padding: 5px 25px;
+    border-radius: ;
 }
 
 .avatar {
     height: 85px;
     width: 85px;
     margin: auto 1px;
-    background-color: #D5D0DD;
+    background-color: #68c6ee;
     border-radius: 50%;
 }
 
