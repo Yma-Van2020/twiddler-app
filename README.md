@@ -1,4 +1,4 @@
-# twiddler
+# Twiddler
 
 An app that resembles the function of Twitter where users can post their own tweets and load new tweetes of the others(auto-generated). Users can like, comment, retweet or share the tweets. They can even see the time stamp of tweets. Moreover, it is also possible to get a list view of each Tweet made by that specific user and go back to the home page afterwards.
 
