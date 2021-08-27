@@ -32,10 +32,10 @@ $(document).ready(function() {
         let index = tweetArray.length - 1
         while (index >= 0) {
             const tweet = tweetArray[index]
-            const $tweetCard = $('<div class="tweet-card"></div>')
+            const $tweetCard = $('<div class="tweet-card" style="background-color:#f7f7f9;;"></div>')
             $tweetCard.append($(`<img class="avatar" src="img/${tweet.user}.jpg"></img>`))
-            const $tweet = $('<div class="tweet"></div>')
-            const $handle = $(`<h3 class="handle">@${tweet.user}</h3>`)
+            const $tweet = $('<div class="tweet stream-post sp-content"></div>')
+            const $handle = $(`<h3 class="handle sp-author-name">@${tweet.user}</h3>`)
             $handle.append($('<i class="fas fa-share"></i>'))
             $handle.append($('<i class="fas fa-heart"></i>'))
             $handle.append($('<i class="fas fa-comment"></i>'))
@@ -45,7 +45,7 @@ $(document).ready(function() {
                 loadStream(tweetUser)
                 alert("Thank you for your interaction!")
             })
-            const $tweetBody = $(`<p class="tweetBody">${tweet.message}</p>`)
+            const $tweetBody = $(`<p class="tweetBody sp-paragraph">${tweet.message}</p>`)
             const $tweetDate = $(`<p class="tweetDate">${moment(tweet.created_at).fromNow()}</p>`)
             $tweet.append($handle, $tweetBody, $tweetDate)
             $tweet.appendTo($tweetCard)

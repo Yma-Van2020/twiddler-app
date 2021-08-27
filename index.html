@@ -11,41 +11,127 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  
 </head>
 
 <body>
     <div class="banner">Twiddler 2.0</div>
     <div id="app">
-        <div id="user-profile">
-            <img src="img/Visitor.jpg" class="big-avi">
-            <div class="user-info">
-                <h2 class="user-handle handle">@IamVisitor</h1>
-                    <p class="user-bio">Hello, coding is exciting!</p>
-            </div>
+        <div id="user-profile" style="width:600px;">
+            <div class="profile-section-user">
 
-            <div class="friend-list">
-                <ul>
-                    <h3>Friend List</h3>
-                    <hr />
-                    <li>mracus</li>
-                    <li>sharksforcheap</li>
-                    <li>douglascalhoun</li>
-                    <li>shawndrost</li>
-                </ul>
+                <div class="profile-info-brief p-3"><img class="big-avi img-fluid user-profile-avatar" src="img/Visitor.jpg" alt="avatar">
+                    <div class="text-center">
+                        <h5 class="text-uppercase mb-4 user-handle handle">@IamVisitor</h5>
+                        <p class="text-muted fz-base">Hello, coding is exciting!</p>
+                    </div>
+                </div>
+                <!-- /.profile-info-brief -->
+                <hr class="m-0">
+                <div class="hidden-sm-down">
+                    <hr class="m-0">
+                    <div class="profile-info-contact p-4">
+                        <h6 class="mb-3">Contact Information</h6>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td><strong>URL:</strong></td>
+                                    <td>
+                                        <p class="text-muted mb-0">Katelyn.com</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>EMAIL:</strong></td>
+                                    <td>
+                                        <p class="text-muted mb-0">Katelyn@gmail.com</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>PHONE:</strong></td>
+                                    <td>
+                                        <p class="text-muted mb-0">01145525755</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>SKYPE:</strong></td>
+                                    <td>
+                                        <p class="text-muted mb-0">Katelyn</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.profile-info-contact -->
+                    <hr class="m-0">
+                    <div class="profile-info-general p-4">
+                        <h6 class="mb-3">Friend List</h6>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td><strong>First degree</strong></td>
+                                    <td>
+                                        <p class="text-muted mb-0">@mracus</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Second degree</strong></td>
+                                    <td>
+                                        <p class="text-muted mb-0">@sharksforcheap</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Third degree</strong></td>
+                                    <td>
+                                        <p class="text-muted mb-0">@douglascalhoun</p>
+                                        <p class="text-muted mb-0">@shawndrost</p>
+                                    </td>
+                                </tr>
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.profile-info-general -->
+              
+                </div>
+                <!-- /.hidden-sm-down -->
             </div>
         </div>
         <div id="main-column">
-            <div class="nav">
-                <button class="homeButton"><ion-icon name="home"></ion-icon></button>
-                <button class="load">Load new tweets</button>
+            <div class="profile-section-main">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs profile-tabs" role="tablist" style="border-bottom: none;">
+                    <li class="nav-item"><a class="nav-link active " data-toggle="tab" href="#profile-overview" role="tab">Timeline</a></li>
+                </ul>
+                <!-- /.nav-tabs -->
+                <!-- Tab panes -->
+                <div class="tab-content profile-tabs-content">
+                    <div class="tab-pane active" id="profile-overview" role="tabpanel">
+                        <div class="post-editor new-tweet-area">
+                            <textarea name="post-field" id="post-field" class="post-fieldn textbox" placeholder="Write Something Cool!"></textarea>
+                            <div class="d-flex">
+                                <button class="btn btn-warning m-1 post-tweet">Post</button>
+                                 <button class="btn btn-warning m-1 load">Load new tweets</button>
+                                 <button class="btn btn-warning m-1 homeButton"><ion-icon name="home"></ion-icon></button>
+                            </div>
+                        </div>
+                        <!-- /.post-editor -->
+                            <div id="feed" style="background-color: white;">
+
+                            </div>
+                            <!-- /.stream-post -->
+                       
+                        <!-- /.stream-posts -->
+                    </div>
+                </div>
+                <!-- /.tab-content -->
             </div>
-            <div class="new-tweet-area">
-                <textarea class="textbox" rows="4"></textarea>
-                <button class="post-tweet">Post tweet</button>
-            </div>
-            <div id="feed"></div>
+            <!-- /.profile-section-main -->
         </div>
-    </div>
+        </div>
+        
     <script src="app.js"></script>
 </body>
 

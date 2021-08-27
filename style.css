@@ -1,17 +1,23 @@
 body {
-    background-color: #ecf1f4;
+    background-color: rgb(169, 174, 179);
     color: #523c44;
     font-family: sans-serif;
     text-align: center;
+    background-image: url(https://inkcorporate.ca/wp-content/uploads/2015/02/simple-gray-background-8449-8772-hd-wallpapers.jpg);
+    background-size: cover;
 }
 
 .banner {
     display: block;
     font-size: 7em;
-    color: #68c6ee;
+    color: #1e1f1f;
     font-family: 'Festive', cursive;
 }
 
+.banner{
+    display: flex;
+    justify-content: center;
+}
 #app {
     display: flex;
     justify-content: center;
@@ -22,16 +28,17 @@ body {
     max-width: 950px;
 }
 
+
 #user-profile {
-    width: 25%;
-    max-width: 200px;
-    border: 1px solid #68c6ee;
-    margin-right: 2%;
-    position: fixed;
-    /*top: -45px;*/
+    width: 155%;
+    max-width:300px;
+    border: 1px solid #d2d2d2;
+    margin-right: 0%;
+    position:relative;
+    border-radius: 15px;
     left: 50%;
     top: 22%;
-    transform: translate(-285%, 0%);
+    transform: translate(-170%, 0%);
 }
 
 .big-avi {
@@ -84,8 +91,48 @@ body {
     height: 75px;
 }
 
+.stream-post {
+    padding: .75rem;
+    background: #f7f7f9;
+    border: 1px solid #eceeef;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem
+}
+
+.sp-author-name {
+    font-size: 1rem;
+    margin: .5rem 0
+}
+
+.sp-content {
+    position: relative;
+    border-radius: .25rem;
+    background: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-right:1rem;
+    width:1200px;
+}
+.sp-content .sp-info {
+    font-size: .875rem;
+    color: #636c72;
+    position: absolute;
+    top: -3rem;
+    left: 80px
+}
+
+.sp-content .sp-paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.sp-content .sp-paragraph:last-child {
+    margin-bottom: 0
+}
+
 button {
-    background-color:#68c6ee;
+    background-color:#93cfe1;
     border: 1px solid #626567;
     padding: 15px 45px;
     text-transform: uppercase;
@@ -128,11 +175,11 @@ ion-icon {
 }
 
 .tweet-card {
-    border: 1px solid #68c6ee;
     display: flex;
     justify-content: flex-start;
     padding: 5px 25px;
-    border-radius: ;
+    border-radius: 5px;
+    margin:15px;
 }
 
 .avatar {
@@ -167,3 +214,5 @@ ion-icon {
     transform: scale(1.2);
     transition:0.2s ease-in-out
 }
+
+/* add */
