@@ -215,4 +215,22 @@ ion-icon {
     transition:0.2s ease-in-out
 }
 
+@media screen and (min-width: 768px) {
+    body{
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .app {
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+      }
+}
 /* add */
+@media screen and (min-width: 350px) {
+    .app {
+      margin-left: auto;
+      margin-right: auto;
+      flex-wrap: wrap;
+    }
+  }

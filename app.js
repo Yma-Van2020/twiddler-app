@@ -21,13 +21,13 @@ $(document).ready(function() {
             $('.load').off().on('click', function() {
                 loadStream(username)
             })
-            $('.load').text(`Load ${username}'s tweets`)
+            $('.load').text(`${username}'s tweets`)
         } else {
             var tweetArray = streams.home
             $('.load').off().on('click', function() {
                 loadStream()
             })
-            $('.load').text('Load new tweets')
+            $('.load').text('Load tweets')
         }
         let index = tweetArray.length - 1
         while (index >= 0) {
