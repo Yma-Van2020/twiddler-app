@@ -1,6 +1,6 @@
 # Twiddler
 
-This is an a simple Twitter clone built with jQuery. It is inspired by Twitter where users can post their own tweets and load new tweetes of the others(auto-generated). Clicking the Update Feed button can re-render the currently displayed Feed with the most current list of Tweets. Clicking a friend's username inside an individual Tweet can re-render the Feed with the most current list of that specific user's Tweets. Clicking the Home Button can return to the Home Feed. Users can even see the time stamp of tweets.
+This is a simple Twitter clone built with jQuery. It is inspired by Twitter where users can post their own tweets and load new tweets of the others(auto-generated). Clicking the Update Feed button can re-render the currently displayed Feed with the most current list of Tweets. Clicking a friend's username inside an individual Tweet can re-render the Feed with the most current list of that specific user's Tweets. Clicking the Home Button can return to the Home Feed. Users can even see the time stamp of tweets.
 
 ## Project Specifications
 
