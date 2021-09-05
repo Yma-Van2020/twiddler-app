@@ -18,10 +18,10 @@ Clicking the Home Button to return to the Home Feed.
 * Javascript
 * HTML5
 * CSS3
-* Jquery
+* JQuery
 * UX/UI design
 * Shell
-* Project test
+* Project test 
 * Json
 
 
