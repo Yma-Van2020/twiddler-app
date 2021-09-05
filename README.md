@@ -28,6 +28,6 @@ https://yma-van2020.github.io/twiddler-app/
 # Demo
 ![Screen Shot 2021-09-04 at 9 41 09 PM](https://user-images.githubusercontent.com/74885386/132115530-cc738b1e-0ebf-4c93-9112-4c16479e6a98.png)
 ![Screen Shot 2021-09-04 at 9 41 18 PM](https://user-images.githubusercontent.com/74885386/132115532-9b0e02f9-534e-4d6e-8287-7860959cf4f3.png)
-![Screen Shot 2021-09-04 at 9 42 06 PM](https://user-images.githubusercontent.com/74885386/132115534-4580623b-74eb-4a55-89ce-37d8a32681b2.png)
 ![Screen Shot 2021-09-04 at 9 42 00 PM](https://user-images.githubusercontent.com/74885386/132115535-87b0c2fa-0e8c-4e8d-baf0-760ba3b0eeaa.png)
+![Screen Shot 2021-09-04 at 9 42 06 PM](https://user-images.githubusercontent.com/74885386/132115534-4580623b-74eb-4a55-89ce-37d8a32681b2.png)
 
